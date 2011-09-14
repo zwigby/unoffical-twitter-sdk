@@ -487,8 +487,7 @@ static CGFloat kBorderWidth = 10;
 - (void)load {
     NSDictionary * _params = [NSDictionary dictionaryWithObject:self.twitterOAuth.oauth_token forKey:@"oauth_token"];
     
-    
-    [self loadURL:@"http://api.twitter.com/oauth/authorize" get:_params];
+    [self loadURL:@"https://api.twitter.com/oauth/authenticate" get:_params];
 }
 
 - (void)loadURL:(NSString*)url get:(NSDictionary*)getParams {

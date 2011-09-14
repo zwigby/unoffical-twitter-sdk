@@ -144,8 +144,8 @@
 		6EC674F413A7A3D40050E618 = {
 			isa = PBXGroup;
 			children = (
-				6EC6758E13A7A6540050E618 /* SystemConfiguration.framework */,
 				6EC6750B13A7A3D50050E618 /* unoffical-twitter-sdk */,
+				6EC6750C13A7A3D50050E618 /* Supporting Files */,
 				6EC6750213A7A3D50050E618 /* Frameworks */,
 				6EC6750013A7A3D50050E618 /* Products */,
 			);
@@ -163,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				6EC6758C13A7A62D0050E618 /* libz.1.2.3.dylib */,
+				6EC6758E13A7A6540050E618 /* SystemConfiguration.framework */,
 				6EC6758A13A7A61E0050E618 /* MobileCoreServices.framework */,
 				6EC6758813A7A6120050E618 /* Security.framework */,
 				6EC6758613A7A60A0050E618 /* CFNetwork.framework */,
@@ -181,7 +182,6 @@
 				6EC6751513A7A3D50050E618 /* unoffical_twitter_sdkAppDelegate.m */,
 				6EC6751713A7A3D50050E618 /* MainWindow.xib */,
 				6EC6751A13A7A3D50050E618 /* unoffical_twitter_sdk.xcdatamodeld */,
-				6EC6750C13A7A3D50050E618 /* Supporting Files */,
 				6EC6759613A7A79C0050E618 /* MainWindowController.h */,
 				6EC6759713A7A79C0050E618 /* MainWindowController.m */,
 			);
@@ -199,6 +199,7 @@
 				6EC6751213A7A3D50050E618 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "unoffical-twitter-sdk";
 			sourceTree = "<group>";
 		};
 		6EC6752213A7A42D0050E618 /* Twitter Library */ = {
@@ -513,6 +514,7 @@
 				6EC6752113A7A3D50050E618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
